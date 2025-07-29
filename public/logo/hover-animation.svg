@@ -1,0 +1,26 @@
+<svg width="200" height="60" viewBox="0 0 200 60" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .spin-group:hover .spin {
+      animation: spin 1.8s ease-in-out infinite;
+      transform-origin: center;
+    }
+
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+  </style>
+
+  <!-- Spiral ve yazı -->
+  <g class="spin-group">
+    <!-- Spiral -->
+    <g class="spin">
+      <path d="M30 30 m -15,0 a 15,15 0 1,1 30,0 a 5,5 0 1,0 -10,0 a 10,10 0 1,1 -20,0" fill="#E6DAFF" stroke="#7F3FE0" stroke-width="2"></path>
+    </g>
+
+    <!-- Yazı -->
+    <text x="65" y="38" font-size="24" fill="#7F3FE0" font-family="Quicksand, sans-serif" font-weight="700">
+      Monetao
+    </text>
+  </g>
+</svg>
