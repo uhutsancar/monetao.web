@@ -24,11 +24,12 @@ dist-ssr
 *.sw?
 
 # API Keys ve Hassas Bilgiler
-utils/apiPaths.js
-utils/axiosInstance.js
-utils/helper.js
-utils/data.js
-
+# utils içindeki dosyaları ignore et (doğru yoldan)
+frontend/monetao/src/utils/apiPaths.js
+frontend/monetao/src/utils/axiosInstance.js
+frontend/monetao/src/utils/data.js
+frontend/monetao/src/utils/helper.js
+frontend/monetao/src/utils/uploadImage.js
 # Environment files
 .env
 .env.local
