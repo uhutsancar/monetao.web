@@ -22,3 +22,20 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# API Keys ve Hassas Bilgiler
+utils/apiPaths.js
+utils/axiosInstance.js
+utils/helper.js
+utils/data.js
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Config files (optional - eğer içinde hassas bilgi varsa)
+config/
+*.config.js

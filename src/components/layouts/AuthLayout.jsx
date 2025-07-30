@@ -1,5 +1,5 @@
 import React from "react";
-import card from "../../assets/images/card.png";
+import card from "../../assets/images/card.webp";
 import { LuTrendingUpDown } from "react-icons/lu";
 import TransactionsChart from "../card/TransactionsChart ";
 
