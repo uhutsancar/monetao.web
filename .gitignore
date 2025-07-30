@@ -25,18 +25,9 @@ dist-ssr
 
 # API Keys ve Hassas Bilgiler
 # utils içindeki dosyaları ignore et (doğru yoldan)
-frontend/monetao/src/utils/apiPaths.js
-frontend/monetao/src/utils/axiosInstance.js
-frontend/monetao/src/utils/data.js
-frontend/monetao/src/utils/helper.js
-frontend/monetao/src/utils/uploadImage.js
-# Environment files
-.env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-
-# Config files (optional - eğer içinde hassas bilgi varsa)
-config/
-*.config.js
+# utils dosyalarını dışla
+src/utils/apiPaths.js
+src/utils/axiosInstance.js
+src/utils/data.js
+src/utils/helper.js
+src/utils/uploadImage.js
