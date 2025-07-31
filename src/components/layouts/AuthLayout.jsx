@@ -1,7 +1,7 @@
 import React from "react";
 import card from "../../assets/images/card.webp";
 import { LuTrendingUpDown } from "react-icons/lu";
-import TransactionsChart from "../card/TransactionsChart ";
+
 
 const AuthLayout = ({ children }) => {
   return (
@@ -25,9 +25,7 @@ const AuthLayout = ({ children }) => {
           />
         </div>
 
-        {/* <div className="w-64 lg:w-[90%] absolute bottom-10 shadow-lg shadow-blue-400/15">
-  <TransactionsChart />
-</div> */}
+
         <img
           src={card}
           alt=""

@@ -15,20 +15,20 @@ import UserProvider from "./context/UserContext";
 
 function App() {
   return (
-     <UserProvider>
-    <div>
-      <Router>
-        <Routes>
-          <Route path="/" element={<Root />} />
-          <Route path="/login" element={<Login />} />
-          <Route path="/signUp" element={<SignUp />} />
-          <Route path="/dashboard" element={<Home />} />
-          <Route path="/expense" element={<Expense />} />
-          <Route path="/income" element={<Income />} />
-        </Routes>
-      </Router>
-    </div>
-  </UserProvider>
+    <UserProvider>
+      <div>
+        <Router>
+          <Routes>
+            <Route path="/" element={<Root />} />
+            <Route path="/login" element={<Login />} />
+            <Route path="/signUp" element={<SignUp />} />
+            <Route path="/dashboard" element={<Home />} />
+            <Route path="/expense" element={<Expense />} />
+            <Route path="/income" element={<Income />} />
+          </Routes>
+        </Router>
+      </div>
+    </UserProvider>
   );
 }
 
