@@ -55,6 +55,8 @@ const ProfilePhotoSelector = ({ image, setImage }) => {
             src={previewUrl}
             alt="profile photo"
             className="w-20 h-20 rounded-full object-cover"
+            width="80"
+            height="80"
           />
           <button
             type="button"

@@ -1,0 +1,20 @@
+User-agent: *
+
+# İzin verilen sayfalar
+Allow: /
+Allow: /login
+Allow: /signUp
+Allow: /dashboard
+Allow: /income
+Allow: /expense
+
+
+
+# API ve özel klasörler (varsa)
+
+
+# Sitemap konumu
+Sitemap: https://monetao.com/sitemap.xml
+
+# Crawl hızı (saniye)
+Crawl-delay: 10

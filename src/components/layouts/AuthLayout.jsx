@@ -1,5 +1,5 @@
 import React from "react";
-import card from "../../assets/images/card.webp";
+import card from "../../assets/images/cardImage.webp";
 import { LuTrendingUpDown } from "react-icons/lu";
 
 
@@ -26,10 +26,14 @@ const AuthLayout = ({ children }) => {
         </div>
 
 
+
         <img
           src={card}
-          alt=""
+          alt="card image"
           className="w-64 lg:w-[90%] absolute bottom-10 shadow-lg shadow-blue-400/15"
+          width="691px"
+          height="461px"
+          loading="eager"
         />
       </div>
     </div>
@@ -45,7 +49,7 @@ const StatsInfoCard = ({ icon, label, value, color }) => {
         {icon}
       </div>
       <div>
-        <h6 className="text-xs text-gray-500 mb-1">{label}</h6>
+        <h3 className="text-xs text-gray-500 mb-1">{label}</h3>
         <span className="text-[20px]">${value}</span>
       </div>
     </div>
