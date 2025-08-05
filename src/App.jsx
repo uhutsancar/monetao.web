@@ -1,6 +1,12 @@
 import React, { useEffect, useState, lazy, Suspense } from "react";
-import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Navigate,
+} from "react-router-dom";
 import UserProvider from "./context/UserContext";
+import { Toaster } from "react-hot-toast";
 
 // Lazy load pages (code splitting)
 const Login = lazy(() => import("./pages/Auth/Login"));
@@ -16,6 +22,15 @@ function App() {
         <Suspense fallback={<div className="p-10">Loading...</div>}>
           <AppRoutes />
         </Suspense>
+
+        <Toaster
+          toastOptions={{
+            className: "",
+            style: {
+              fontSize: "13px",
+            },
+          }}
+        />
       </UserProvider>
     </Router>
   );
