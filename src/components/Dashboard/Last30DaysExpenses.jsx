@@ -18,9 +18,7 @@ const Last30DaysExpenses = ({ data }) => {
         <h1 className="text-lg">Last 30 Days Expenses</h1>
       </div>
 
-    
-     <CustomBarChart data={chartData} />
-
+      <CustomBarChart data={chartData} />
     </div>
   );
 };
