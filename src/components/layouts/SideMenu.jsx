@@ -52,6 +52,7 @@ const SideMenu = ({ activeMenu }) => {
 
       {SIDE_MENU_DATA.map((item, index) => (
         <button
+        aria-label="SideMenu Button"
           key={`menu_${index}`}
           className={`w-full flex items-center gap-4 text-[15px] ${
             activeMenu == item.label ? " text-white  bg-primary" : ""

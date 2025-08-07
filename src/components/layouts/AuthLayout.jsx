@@ -2,7 +2,6 @@ import React from "react";
 import card from "../../assets/images/cardImage.webp";
 import { LuTrendingUpDown } from "react-icons/lu";
 
-
 const AuthLayout = ({ children }) => {
   return (
     <div className="flex">
@@ -24,8 +23,6 @@ const AuthLayout = ({ children }) => {
             color="bg-primary"
           />
         </div>
-
-
 
         <img
           src={card}

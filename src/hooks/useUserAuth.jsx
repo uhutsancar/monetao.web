@@ -11,6 +11,9 @@ export const useUserAuth = () => {
   useEffect(() => {
     if (user) return;
 
+ 
+  if (!localStorage.getItem('token')) return;
+
     let isMounted = true;
 
     const fetchUserInfo = async () => {

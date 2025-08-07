@@ -12,6 +12,7 @@ const Navbar = ({ activeMenu }) => {
         onClick={() => {
           setOpenSideMenu(!openSideMenu);
         }}
+        aria-label="Menu Button"
       >
         {openSideMenu ? (
           <HiOutlineX className="text-2xl" />
