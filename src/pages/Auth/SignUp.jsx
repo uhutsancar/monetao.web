@@ -1,5 +1,6 @@
 import React, { useContext, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
+import SEO from "~/components/Common/Seo";
 import Input from "~/components/Inputs/Input";
 import ProfilePhotoSelector from "~/components/Inputs/ProfilePhotoSelector";
 import AuthLayout from "~/components/layouts/AuthLayout";
@@ -78,6 +79,12 @@ const SignUp = () => {
 
   return (
     <AuthLayout>
+                   <SEO
+        title="SignUp | Monetao"
+        description="Harcamalarını analiz et, gelir giderlerini kontrol et. Monetao signup ekranı."
+        url="https://monetao.com/signup"
+        image="https://monetao.com/assets/signup-preview.jpg"
+      />
       <div className="lg:w-[100%] h-auto md:h-full mt-10 md:mt-0 flex flex-col justify-center">
         <h3 className="text-xl font-semibold text-black">Create an Account</h3>
         <p className="text-xs text-slate-700 mt-[5px] mb-6">

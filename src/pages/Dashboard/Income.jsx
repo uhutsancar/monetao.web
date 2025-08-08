@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import toast from "react-hot-toast";
+import SEO from "~/components/Common/Seo";
 import DeleteAlert from "~/components/DeleteAlert";
 import AddIncomeForm from "~/components/Income/AddIncomeForm";
 import IncomeList from "~/components/Income/IncomeList";
@@ -125,6 +126,12 @@ const Income = () => {
 
   return (
     <DashboardLayout activeMenu="Income">
+              <SEO
+        title="Income | Monetao"
+        description="Harcamalarını analiz et, gelir giderlerini kontrol et. Monetao income ekranı."
+        url="https://monetao.com/income"
+        image="https://monetao.com/assets/income-preview.jpg"
+      />
       <div className="my-5 mx-auto">
         <div className="grid grid-cols-1 gap-6">
           <div className="">

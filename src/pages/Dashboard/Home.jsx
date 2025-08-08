@@ -15,6 +15,7 @@ import Last30DaysExpenses from "~/components/Dashboard/Last30DaysExpenses";
 import RecentIncomeWithChart from "~/components/Dashboard/RecentIncomeWithChart";
 import RecentIncome from "~/components/Dashboard/RecentIncome";
 import { addThousandsSeparator } from "~/utils/helper";
+import SEO from "~/components/Common/Seo";
 
 const Home = () => {
   useUserAuth();
@@ -51,6 +52,12 @@ const Home = () => {
 
   return (
     <DashboardLayout activeMenu="Dashboard">
+        <SEO
+        title="Dashboard | Monetao"
+        description="Harcamalarını analiz et, gelir giderlerini kontrol et. Monetao dashboard ekranı."
+        url="https://monetao.com/dashboard"
+        image="https://monetao.com/assets/dashboard-preview.jpg"
+      />
       <div className="my-5 mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           <InfoCard

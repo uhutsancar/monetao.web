@@ -45,6 +45,7 @@ const AddExpenseForm = ({ onAddExpense }) => {
 
       <div className="flex justify-end mt-6">
         <button
+        aria-label="Add Expense"
           className="add-btn add-btn-fill"
           type="button"
           onClick={() => onAddExpense(income)}

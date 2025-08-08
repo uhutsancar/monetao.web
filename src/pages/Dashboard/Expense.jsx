@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import toast from "react-hot-toast";
+import SEO from "~/components/Common/Seo";
 import DeleteAlert from "~/components/DeleteAlert";
 import AddExpenseForm from "~/components/Expense/AddExpenseForm";
 import ExpenseList from "~/components/Expense/ExpenseList";
@@ -124,6 +125,12 @@ const Expense = () => {
 
   return (
     <DashboardLayout activeMenu="Expense">
+                <SEO
+        title="Expense | Monetao"
+        description="Harcamalarını analiz et, gelir giderlerini kontrol et. Monetao expense ekranı."
+        url="https://monetao.com/expense"
+        image="https://monetao.com/assets/expense-preview.jpg"
+      />
       <div className="my-5 mx-auto">
         <div className="grid grid-cols-1 gap-6">
           <div className="">

@@ -42,6 +42,7 @@ const ProfilePhotoSelector = ({ image, setImage }) => {
         <div className="w-20 h-20 flex items-center justify-center bg-purple-100 rounded-full relative">
           <LuUser className="text-4xl text-primary" />
           <button
+          aria-label="Choose File"
             type="button"
             onClick={onChooseFile}
             className="w-8 h-8 flex items-center justify-center bg-primary text-white rounded-full absolute -bottom-1 -right-1"
@@ -59,6 +60,7 @@ const ProfilePhotoSelector = ({ image, setImage }) => {
             height="80"
           />
           <button
+          aria-label="Remove Image"
             type="button"
             onClick={handleRemoveImage}
             className="w-8 h-8 flex items-center justify-center bg-red-500 text-white rounded-full absolute -bottom-1 -right-1"

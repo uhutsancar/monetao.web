@@ -8,6 +8,7 @@ import {
 import UserProvider from "./context/UserContext";
 import { Toaster } from "react-hot-toast";
 
+
 // Lazy load pages (code splitting)
 const Login = lazy(() => import("./pages/Auth/Login"));
 const SignUp = lazy(() => import("./pages/Auth/SignUp"));
