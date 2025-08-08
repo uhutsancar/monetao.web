@@ -52,7 +52,7 @@ const Home = () => {
 
   return (
     <DashboardLayout activeMenu="Dashboard">
-        <SEO
+      <SEO
         title="Dashboard | Monetao"
         description="Harcamalarını analiz et, gelir giderlerini kontrol et. Monetao dashboard ekranı."
         url="https://monetao.com/dashboard"

@@ -79,7 +79,7 @@ const SignUp = () => {
 
   return (
     <AuthLayout>
-                   <SEO
+      <SEO
         title="SignUp | Monetao"
         description="Harcamalarını analiz et, gelir giderlerini kontrol et. Monetao signup ekranı."
         url="https://monetao.com/signup"

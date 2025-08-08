@@ -56,7 +56,7 @@ const Login = () => {
 
   return (
     <AuthLayout>
-                <SEO
+      <SEO
         title="Login | Monetao"
         description="Harcamalarını analiz et, gelir giderlerini kontrol et. Monetao login ekranı."
         url="https://monetao.com/login"
